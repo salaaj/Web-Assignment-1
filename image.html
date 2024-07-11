@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <title> Images</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
         <table align="center">
-            <tr style="background-color: rgb(23, 23, 23); color: white; text-align: center; height: 100px;">
+            <tr id="tr1">
                 <td style="width: 100px;">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/188px-Flag_of_Saudi_Arabia.svg.png"
                         alt="Saudi Arabia" height="90px" width="90px">
@@ -14,13 +15,15 @@
                 <td style="width: 800px; text-align: center;color: aliceblue;"> <h2>Saudi Arabia Website</h2></td>
                 <td style="width: 200px;color: aliceblue;">
                     <p>Sunday, 01 May 2024</p>
-                    <input type="text" placeholder="Search Here">
+                    <div class="search-container">
+                        <input type="text" placeholder="Search Here">
+                        </div>
                 </td>
             </tr>
         </table>
         <table align="center">
-            <tr style="background-color: rgb(9, 130, 27); text-align: center;">
-                 <td width="182px"><a style="color: white; " href="index.html">Home</a></td>
+            <tr id="tr2">
+                <td width="182px"><a style="color: white; " href="index.html">Home</a></td>
                 <td width="182px"><a style="color: white;" href="form.html">Form</a></td>
                 <td width="182px"><a style="color: white; text-decoration: none;" href="registration form.html"> Regi.Form</a></td>
                 <td width="182px"><a style="color: white;" href="Table.html">Table</a></td>
@@ -35,17 +38,20 @@
     <h1 align="center"><marquee>Images of KSA</marquee></h1>
     <table align="center">
         <tr>
-            <td><img src="download (1).jpeg" alt="" height="180px" width="250px"></td>
-            <td><img src=" download (2).jpeg" alt=""height="180px" width="250px"></td>
-            <td><img src="download (3).jpeg" alt="" height="180px" width="250px"></td>
+            <td><img class="img" src="photo/one photo.jpeg" alt="" height="180px" width="250px"></td>
+            <td><img class="img" src="photo/two photo.jpeg" alt=""height="180px" width="250px"></td>
+            <td><img class="img" src="photo/al madina.jpeg" alt="" height="180px" width="250px"></td>
     
         </tr>
         <tr>
-                <td><img src="download (4).jpeg" alt="" height="180px" width="250px"></td>
-                <td><img src="download (5).jpeg" alt=""height="180px" width="250px"></td>
-                <td><img src="download.jpeg" alt="" height="180px" width="250px"></td>
+                <td><img class="img" src="photo/five photo.jpeg" alt="" height="180px" width="250px"></td>
+                <td><img class="img" src="photo/four photo.jpeg" alt=""height="180px" width="250px"></td>
+                <td><img class="img" src="photo/six photo.jpeg" alt="" height="180px" width="250px"></td>
         </tr>
 
     </table>
+    <footer class="footer">
+        Developed by S A Laaj & 2024
+    </footer>
 </body>
 </html>
