@@ -1,23 +1,44 @@
+
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-       
-       h1{
-        align-self: auto;
-       }
-        
-        input[type=submit]:hover {
-          background-color: #45a049;
-        }
-        
-        </style>
+
 <head>
     <title> Registration Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+       
+
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor:pointer;
+    }
+</style>
 <body>
     <div>
         <table align="center">
-            <tr style="background-color: rgb(20, 21, 20); color: white; text-align: center; height: 100px;">
+            <tr id="tr1">
                 <td style="width: 100px;">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/188px-Flag_of_Saudi_Arabia.svg.png"
                         alt="Saudi Arabia" height="90px" width="90px">
@@ -25,16 +46,18 @@
                 <td style="width: 800px; text-align: center;color: aliceblue;"><h2> Saudi Arabia Website</h2></td>
                 <td style="width: 200px;color: aliceblue;">
                     <p>Sunday, 01 May 2024</p>
-                    <input type="text" placeholder="Search Here">
+                    <div class="search-container">
+                        <input type="text" placeholder="Search Here">
+                        </div>
                 </td>
             </tr>
         </table>
         <table align="center">
-            <tr style="background-color: rgb(9, 130, 43); text-align: center;">
-                  <td width="182px"><a style="color: white; " href="index.html">Home</a></td>
+            <tr id="tr2">
+                <td width="182px"><a style="color: white; " href="index.html">Home</a></td>
                 <td width="182px"><a style="color: white;" href="form.html">Form</a></td>
                 <td width="182px"><a style="color: white; text-decoration: none;" href="registration form.html"> Regi.Form</a></td>
-                <td width="182px"><a style="color: white;" href="Table.html">Table</a></td>
+                <td width="182px"><a style="color: white;" href="table.html">Table</a></td>
                 <td width="182px"><a style="color: white; " href="news.html">News Portal</a></td>
                 <td width="182px"><a style="color: white; " href="image.html">Image</a></td>
                 <td width="182px"><a style="color: white; " href="contact.html">Contact</a></td>
@@ -78,5 +101,8 @@
         </form>
     
     </div>
+    <footer class="footer">
+        Developed by S A Laaj & 2024
+    </footer>
 </body>
 </html>
