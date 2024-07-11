@@ -1,0 +1,43 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-image:  ;
+}
+.search-container {
+    position: relative;
+}
+
+
+
+#tr1{
+    background-color: rgb(13, 14, 13);
+    color: white-space: inherit;
+    text-align: center;
+    height: 100px;
+}
+p{
+    font-style: italic;
+
+}
+#tr2{
+     background-color: rgb(71, 179, 67);
+            color: white-space: inherit;
+            text-align: center;
+}
+.img{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    background-color: #0077b6;
+    color: white;
+    
+    text-align: center;
+}
